@@ -1,0 +1,40 @@
+.join_container {
+	display: flex;
+	flex-direction: column;
+
+	justify-content: center;
+	align-items: center;
+	height: 200px;
+	width: 400px;
+	background-color: floralwhite;
+
+	-webkit-box-shadow: 5px 5px 17px 1px rgba(0, 0, 0, 0.3);
+	box-shadow: 5px 5px 17px 1px rgba(0, 0, 0, 0.3);
+}
+
+.join_body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.join_body input {
+	height: 20px;
+	padding-left: 3px;
+
+	outline: none;
+}
+.btn_join {
+	background-color: #1976D2;
+	color: #fff;
+	
+	font-weight: bold;
+
+	border: none;
+	border-radius: 10px;
+	
+	padding: 5px 10px;
+	margin-top: 10px;
+
+	cursor: pointer;
+}
